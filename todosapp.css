@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Poppins",sans-serif;
+    padding-top: 20px;
+    justify-content: center;
+
+}
+
+body {
+    background-color: rgb(237, 244, 244);
+}
+form{
+    align-items: center;
+    justify-content: center;
+}
+.output{
+    align-items: center;
+    justify-content: center;
+}
+.tasks{
+    list-style: none;
+}
+.input{
+    margin-left:25% ;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 1rem;
+    height: 40px;
+    width: 40%;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+
+}
+.addbtn{
+    height: 45px;
+    width:10%;
+    border-radius:1rem;
+    font-size: 20px;
+    background-color:rgb(255,200,0);
+    font-family:"Poppins",sans-serif ;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 1000;
+    outline-color: black;
+}
+.output{
+    min-width: 30%;
+    list-style: none;
+}
+.task{
+    margin: 1rem;
+    padding-left: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 2rem;
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+    border-color: black;
+
+}
+.task li{
+    flex: 1;
+}
+.removebton{
+    color:#fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.done{
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.done{
+    background-color: rgb(13, 146, 88);
+}
+.removebton{
+    border-top-right-radius:1.75rem ;
+    border-bottom-right-radius:1.75rem ;
+    background: rgb(243, 66, 66);
+    text-decoration: none;
+}
+
+.donemarked{
+    opacity: 0.6;
+    color: black;
+}
+.slide{
+    transform: translateX(10rem);
+    opacity: 0;
+}
+.div{
+    text-decoration: none;
+}
